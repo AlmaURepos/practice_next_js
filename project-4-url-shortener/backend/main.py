@@ -10,7 +10,7 @@ from typing import Optional
 app = FastAPI()
 
 # --- Настройка CORS ---
-origins = ["http://localhost:3000"]
+origins = ["http://localhost:3001"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
